@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Qparser",
+  "version": "0.1",
+
+  "description": "Parse questions with answers and images",
+  "homepage_url": "https://github.com/apcnwc/Qparser",
+  "icons": {
+    "48": "icons/qp.png"
+  },
+
+  "permissions": ["activeTab"],
+  "background": {
+      "scripts": ["background-script.js"],
+      "persistent": false,
+      "type": "module"
+  },
+
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/qp.png",
+    "default_title": "Qparser"
+  }
+}
+  
