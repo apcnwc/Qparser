@@ -29,6 +29,13 @@ This extension works only with local stored pages with specific HTML markup. You
     </div>
 </div>
 ```
+## Requirements
+Python script require:
+1. aiohttp
+2. aiohttp_cors
+3. urllib
+4. sqlite3
+
 ## Steps
 1. Set sqlite database name in main.py file from server folder.  
 2. Start main.py python script.
